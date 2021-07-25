@@ -23,18 +23,18 @@ function camelCaseResponse(response) {
     if (response.hasOwnProperty(key)) {
       const currentValue = response[key];
       let updatedKey = key;
-      if (updatedKey.indexOf("-") !== -1) {
+      if (updatedKey.indexOf('-') !== -1) {
         updatedKey = updatedKey.replace(/-([a-z])/g, (matchedString) =>
           matchedString[1].toUpperCase()
         );
-      } else if (updatedKey.indexOf("_") !== -1) {
+      } else if (updatedKey.indexOf('_') !== -1) {
         updatedKey = updatedKey.replace(/_([a-z])/g, (matchedString) =>
           matchedString[1].toUpperCase()
         );
       }
 
       updatedResponse[updatedKey] =
-        typeof currentValue === "object"
+        typeof currentValue === 'object'
           ? camelCaseResponse(currentValue)
           : currentValue;
     }
