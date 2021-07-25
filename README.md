@@ -1,4 +1,4 @@
-# rionzz v1.0.3
+# rionzz v1.0.4
 
 A javascript utility library for handling scenarios which we encouter while development.
 
@@ -9,7 +9,7 @@ Even specific code can be extracted and used.
 
 Using npm:
 ```shell
-$ npm i --save lodash
+$ npm i --save rionzz
 ```
 
 In Node.js:

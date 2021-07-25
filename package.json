@@ -1,6 +1,6 @@
 {
   "name": "rionzz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A javascript utility library.",
   "main": "index.js",
   "keywords": ["javascript", "typescript"],
