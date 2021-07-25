@@ -1,9 +1,9 @@
 {
   "name": "rionzz",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "A javascript utility library.",
   "main": "index.js",
-  "keywords": ["javascript", "typescript"],
+  "keywords": ["javascript", "typescript", "camelcase", "camelcase-keys", "json-keys", "transform-keys"],
   "author": "Mithilesh Kumar",
   "license": "MIT"
 }
